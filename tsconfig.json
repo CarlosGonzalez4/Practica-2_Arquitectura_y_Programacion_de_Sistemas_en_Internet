@@ -1,0 +1,24 @@
+
+{
+"compilerOptions": {
+  "module": "NodeNext",
+  "target": "ESNext",
+  "types": ["node"],
+  "rootDir": "./src",
+  "outDir": ".gitignore/dist",
+  "sourceMap": true,
+  "declaration": true,
+  "declarationMap": true,
+  "noUncheckedIndexedAccess": true,
+  "exactOptionalPropertyTypes": true,
+  "strict": true,
+  "jsx": "react-jsx",
+  "verbatimModuleSyntax": true,
+  "isolatedModules": true,
+  "noUncheckedSideEffectImports": true,
+  "moduleDetection": "force",
+  "skipLibCheck": true
+},
+"include": ["src/**/*.ts"],
+"exclude": ["node_modules", ".gitignore/dist"]
+}

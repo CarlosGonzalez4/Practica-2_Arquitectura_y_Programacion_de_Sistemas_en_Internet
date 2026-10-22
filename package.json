@@ -1,0 +1,34 @@
+{
+  "name": "practica2",
+  "version": "1.0.0",
+  "description": "## Objetivo del proyecto  Implementar una API REST básica para gestionar los libros y los préstamos de una biblioteca. El objetivo es practicar rutas, métodos HTTP, rutas dinámicas (:id), parámetros de consulta, códigos de estado y lógica de negocio dentro de los handlers.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosGonzalez4/Practica-2_Arquitectura_y_Programacion_de_Sistemas_en_Internet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarlosGonzalez4/Practica-2_Arquitectura_y_Programacion_de_Sistemas_en_Internet/issues"
+  },
+  "homepage": "https://github.com/CarlosGonzalez4/Practica-2_Arquitectura_y_Programacion_de_Sistemas_en_Internet#readme"
+}
